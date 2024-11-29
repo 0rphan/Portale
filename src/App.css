@@ -1,0 +1,131 @@
+/* App.css */
+
+/* General reset for the page */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Center the content of the page */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Header styles */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Tab navigation */
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.tabs button {
+  background-color: #ecf0f1;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tabs button:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+.tabs button.active {
+  background-color: #2980b9;
+  color: white;
+}
+
+/* Game card layout */
+.game-list {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Individual Game Card */
+.game-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.game-card img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.game-card .game-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.game-card .game-info h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.game-card .game-info p {
+  font-size: 0.9rem;
+  margin: 0;
+  color: #7f8c8d;
+}
+
+.game-card .game-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.game-card .game-actions .category {
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.game-card .game-actions button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.game-card .game-actions button:hover {
+  background-color: #2980b9;
+}
+
+/* Category colors */
+.category-word-guessing { background-color: #9b59b6; }
+.category-geography { background-color: #f39c12; }
+.category-photography { background-color: #e74c3c; }
+.category-word-puzzle { background-color: #1abc9c; }
+.category-pokemon { background-color: #2ecc71; }
+.category-music { background-color: #3498db; }
+.category-movies { background-color: #e67e22; }

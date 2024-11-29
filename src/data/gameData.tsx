@@ -1,0 +1,166 @@
+// src/data/gameData.ts
+
+export interface Game {
+  id: string;
+  name: string;
+  description: string;
+  url: string;
+  category: string;
+  image: string;
+  completed: boolean;
+  favorite: boolean;
+}
+
+// Define the games array
+export const gamesData: Game[] = [
+  {
+    id: 'wordle',
+    name: 'Wordle',
+    description: 'Guess the 5-letter word in 6 tries',
+    url: 'https://www.nytimes.com/games/wordle/index.html',
+    category: "Word Guessing",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Wordle_Logo.svg",
+    completed: false,
+    favorite: false,
+  },
+  {
+    id: 'globle',
+    name: 'Globle',
+    description: 'Guess the mystery country',
+    url: 'https://globle-game.com/',
+    category: "Geography",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Wordle_Logo.svg",
+    completed: false,
+    favorite: false,
+  },
+  {
+    id: 'worldle',
+    name: 'Worldle',
+    description: 'Guess the country by its shape',
+    url: 'https://worldle.teuteuf.fr/',
+    category: "Geography",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Wordle_Logo.svg",
+    completed: false,
+    favorite: false,
+  },
+  {
+    id: 'whentaken',
+    name: 'Whentaken',
+    description: 'Guess when a photo was taken',
+    url: 'https://whentaken.com/',
+    category: "Photography",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Wordle_Logo.svg",
+    completed: false,
+    favorite: false,
+  },
+  {
+    id: 'connections',
+    name: 'Connections',
+    description: 'Find connections between words',
+    url: 'https://www.nytimes.com/games/connections',
+    category: "Word Puzzle",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Wordle_Logo.svg",
+    completed: false,
+    favorite: false,
+  },
+  {
+    id: 'semantle',
+    name: 'Semantle',
+    description: 'Guess the semantically similar word',
+    url: 'https://semantle.com/',
+    category: "Word Guessing",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Wordle_Logo.svg",
+    completed: false,
+    favorite: false,
+  },
+  {
+    id: 'pokedle',
+    name: 'Pokedle',
+    description: 'Guess the Pokémon',
+    url: 'https://pokedle.net/',
+    category: "Pokemon",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Wordle_Logo.svg",
+    completed: false,
+    favorite: false,
+  },
+  {
+    id: 'songless',
+    name: 'Songless',
+    description: 'Guess the song without lyrics',
+    url: 'https://songless.xyz/',
+    category: "Music",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Wordle_Logo.svg",
+    completed: false,
+    favorite: false,
+  },
+  {
+    id: 'bandle',
+    name: 'Bandle',
+    description: 'Music-based guessing game',
+    url: 'https://bandle.app/',
+    category: "Music",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Wordle_Logo.svg",
+    completed: false,
+    favorite: false,
+  },
+  {
+    id: 'strands',
+    name: 'Strands',
+    description: 'Word puzzle with a twist',
+    url: 'https://www.nytimes.com/games/strands',
+    category: "Word Puzzle",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Wordle_Logo.svg",
+    completed: false,
+    favorite: false,
+  },
+  {
+    id: 'movidle',
+    name: 'Movidle',
+    description: 'Guess the movie',
+    url: 'https://movidle.net/',
+    category: "Movies",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Wordle_Logo.svg",
+    completed: false,
+    favorite: false,
+  },
+  {
+    id: 'frame',
+    name: 'Frame',
+    description: 'Guess the movie from a single frame',
+    url: 'https://frametrivia.com/',
+    category: "Movies",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Wordle_Logo.svg",
+    completed: false,
+    favorite: false,
+  },
+  {
+    id: 'spotle',
+    name: 'Spotle',
+    description: 'Guess the Spotify song',
+    url: 'https://spotle.io/',
+    category: "Music",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Wordle_Logo.svg",
+    completed: false,
+    favorite: false,
+  },
+  {
+    id: 'tradle',
+    name: 'Tradle',
+    description: 'Guess the country by its trade profile',
+    url: 'https://oec.world/en/tradle',
+    category: "Geography",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Wordle_Logo.svg",
+    completed: false,
+    favorite: false,
+  },
+  {
+    id: 'flaggle',
+    name: 'Flaggle',
+    description: 'Guess the country by its flag',
+    url: 'https://www.flaggle.net/',
+    category: "Geography",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Wordle_Logo.svg",
+    completed: false,
+    favorite: false,
+  }
+];
